@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Boston Hotel | Contact Us ! </title>
+    <style>
+        /*iphone 5s , galaxy s5 , iphone 6/7/8*/
+        @media (max-width: 400px) {
+            nav li a {
+                padding:0.93rem 0.8rem !important;
+
+            }
+        }
+        @media (max-height:800px) and (max-width: 800px){
+            .options {
+                width: 100% !important;
+                margin:0;
+            }
+            #hotel2 , #phone {
+                border-bottom: 1px solid white !important;
+            }
+            .options p {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+            .options h1 {
+                margin-bottom: 0;
+            }
+            #group-options {
+                margin: 0 auto !important;
+            }
+        }
+        @media (max-width: 520px) {
+            #contact , #contact p{
+                font-size: 0.8rem !important;
+            }
+            #contact h1 {
+                display: block;
+                margin: 0 auto !important;
+                padding: 0;
+                text-align: center;
+                font-size: 2.5rem;
+            }
+
+            #submit {
+                font-size: 0.9rem;
+                padding:0 !important;
+                height:3rem !important;
+                width:7rem !important;
+            }
+        }
+        @media (min-height: 918px){
+            body {
+                height : 100vh;
+            }
+            #group-options{
+                background-color: #333333;
+                width: 100%;
+                position : absolute;
+                bottom:0;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav id="navbar">
+    <a id="home" href="index.html">HBT</a>
+    <ul>
+        <li id="active"><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li ><a href="index.html">Home</a></li>
+    </ul>
+</nav>
+<div class="content" id="contact">
+    <h1 style="margin-top: 20px !important;"> <span style="color: #EC9F7E">Contact</span>  Us : </h1>
+    <p style="font-weight: bold ; color:#333333">Please fill out the form below to contact us</p>
+    <p>Name :
+    <input type="text">
+        <hr>
+    </p>
+    <p>
+    Email :
+    <input type="text">
+    </p>
+    <hr>
+        <section id="message-left">
+            <p> Message : </p>
+          <textarea name="message-right" id="" cols="30" rows="5"></textarea>
+        </section>
+
+    <div style="clear: both"></div>
+    <hr>
+    <input type="submit" id="submit">
+    </p>
+</div>
+<div style=" margin:0; padding:0; background-color: #333333;  ">
+    <div id="group-options">
+         <div id="hotel2" class="options" style="background-color: #333333;">
+            <i class="fas fa-hotel"></i>
+            <h1 style="color: white"> Location: </h1>
+            <p style="color: white">50 Main st, Boston MA</p>
+        </div>
+        <div id="phone" class="options" style="background-color: #333333; border-left : 1px solid white;">
+            <i class="fas fa-phone"></i>
+            <h1 style="color: white">Phone Number</h1>
+            <p style="color: white">+213 794-614-612</p>
+        </div>
+        <div id="email" class="options" style="background-color: #333333; border-left : 1px solid white;">
+            <i class="fas fa-envelope-open-text"></i>
+            <h1 style="color: white">Email</h1>
+            <p style="color: white">is-metidji@esi.dz</p>
+        </div>
+        <footer style="border-top : 1px solid white;">
+            <p> Hotel BT &copy; 2019 , All Rights Deserved .</p>
+        </footer>
+
+    </div>
+</div>
+<div style="clear:both "></div>
+
+</body>
+</html>
