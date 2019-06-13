@@ -9,7 +9,7 @@
     3.Support the display of all screens ( desktops / laptops /tablets / smartphones ... ) by using Media-Queries 
   Notes :
     1.please decompress the zip files ( img & css ) before checking the website.
-    2.Please turn your connection On to have the correct displayy of the website  ( i uploaded some free icons from Fontawesome.com )
+    2.Please turn your connection On to have the correct displayy of the website  ( i uploaded some free icons from Fontawesome.com ).
     
     
  Don't hesitate to contact me :
