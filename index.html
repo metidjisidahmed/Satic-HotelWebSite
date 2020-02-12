@@ -1,122 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Welcome to the best hotel on Boston">
-    <meta name="keywords" content="hotel , boston , holiday">
-    <title>Boston Hotel | Welcome</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Task List</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/520ea3c11c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <style>
-        /*iphone 5s , galaxy s5 , iphone 6/7/8*/
-        @media (max-width: 400px) {
-            nav li a {
-                padding:0.93rem 0.8rem !important;
-            }
-            #text h1 {
-                font-size: 3rem;
-                padding: 1rem;
-            }
-
-        }
-        /*iphone 5s only */
-        @media (max-width: 321px){
-            #text h1 {
-                font-size:2.2rem;
-            }
-            #text p {
-                font-size:0.8em;
-            }
-        }
-        /*all except widescreen*/
-        @media (max-width: 1350px) {
-            #part1 {
-                display: none;
-            }
-            #part2 {
-                width:100%;
-                float:none;
-                /*height:70vh;*/
-            }
-        }
-        /*all except tablets */
         @media (max-width: 520px) {
-            .options{
-                width:100% !important;
+            *{
+                font-size: 1.2em;
             }
-            #group-options {
-                margin: 0 auto !important;
+            #container {
+                width: 85vw;
+
             }
-            footer{
-                font-size: 0.6rem;
+            input {
+                font-size: 0.9rem !important;
+                width: 60vw;
+            }
+            li {
+                width : 75vw;
             }
         }
-        @media (min-height:800px){
-            #font {
-                padding-top: 10rem;
-            }
-        }
-        /*@media (max-width: 360px) {*/
-        /*    #text h1 {*/
-        /*        font-size: 3rem;*/
-        /*        padding: 1rem;*/
-        /*    }*/
-        /*}*/
+
     </style>
 </head>
 <body>
-<!--  <div id="navbar">-->
-    <nav id="navbar">
-        <a id="home" href="index.html" style="padding-right: 0 !important;">HBT</a>
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li id="active"><a href="index.html">Home</a></li>
-        </ul>
-    </nav>
-<!--  </div>-->
-  <div id="font">
-       <article id="text" style="text-align: center">
-           <h1> <span style="color:lightcoral;">Enjoy</span> your style </h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur aut culpa dolores earum facilis illum in libero neque quo.</p>
-           <a href="about.html">About our Hotel</a>
-       </article>
-  </div>
-  <div style="clear: both"></div>
-    <section class="parts">
-        <div id="part1"></div>
+    <div id="container">
+        <div id="part1">
+            <h1 id="T_Li"><span id="span1" style="display: block">Task List</span> <span id="span2">New Task</span></h1>
+            <input type="text" id="input" placeholder="Add your new Task here"><br>
+            <button id="Add">Add Task</button>
+            <hr>
+        </div>
         <div id="part2">
-            <h1> <span style="color:lightcoral"> The History </span> of our Hotel </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aut blanditiis dicta ea, fugit illum labore nulla reiciendis sequi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi aperiam architecto aspernatur at corporis dolores enim incidunt libero perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium culpa enim error et fugit harum, hic minima nulla obcaecati quas saepe sint temporibus velit!</p>
-            <a href="about.html">Read More</a>
-        </div>
-    </section>
-    <div style="clear:both "></div>
-    <div id="group-options" style="background-color: antiquewhite ; padding:0;">
-
-        <div id="hotel" class="options">
-            <i class="fas fa-hotel"></i>
-            <h1>Great Location </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, vel?</p>
-        </div>
-        <div id="food" class="options">
-            <i class="fas fa-utensils"></i>
-            <h1>Free meals</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, distinctio?</p>
-        </div>
-        <div id="fitness" class="options">
-            <i class="fas fa-dumbbell"></i>
-            <h1>Fitness Room</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, voluptas!</p>
+            <h2 id="Tasks">Tasks</h2>
+            <ul>
+<!--                <li> <p>List Item</p> <i class="far fa-times-circle"></i> </li>-->
+<!--                <li style="border-top: 0"> <p>List Item</p> <i class="far fa-times-circle"></i> </li>-->
+                <p id="NO">There isn't any Task Currently!! , make your day productive and add some tasks to do dude !!</p>
+            </ul>
+            <br><br>
+            <button id="Clear" style="display:none">Clear Tasks</button>
         </div>
     </div>
-    <div style="clear:both "></div>
-    <footer>
-        <p> Hotel BT &copy; 2019 , All Rights Deserved .</p>
-    </footer>
+    <script src ="app.js"></script>
 </body>
 </html>
