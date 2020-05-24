@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    font-family:"Segoe UI";
+}
+body{
+    background-color: #fff;
+    margin:0;
+    z-index: -1;
+}
+#navbar{
+    margin:0;
+    padding:0;
+}
+nav {/*, #part2 a*/
+    position:sticky;
+    top:0;
+    margin:0;
+    background-color:#333333;
+    height:2.9rem;
+}
+
+
+
+nav p{
+    /*font-family: 'Maiden Orange', cursive;*/
+    display:inline;
+    float:left;
+    max-width:30%;
+    padding: 1rem 20px;
+    padding-top: 10px;
+    font-size:1.7rem;
+    margin:0;
+    font-weight: bold;
+    color:white;
+}
+nav ul {
+    display:inline;
+    padding:0;
+    width: 75vh !important;
+}
+nav li{
+    float:right;
+    display:inline;
+}
+nav li a  { /*#part2 a{*/
+    border-top:5px;
+    padding:0.93rem 1.25rem;
+    display:block;
+    /*font-family:Verdana;*/
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    font-size:0.8rem;
+}
+nav a  /*#part2 a*/ {
+    display:inline-block;
+    font-family:Verdana;
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    padding:0.43rem 1.25rem;
+    padding-top:0.43rem;
+    font-size:1.7rem;
+    margin:0;
+}
+
+
+
+nav li a:hover , #active a  , #part2 a:hover , #text a:hover , #submit:hover {
+    background-color: #5b5349; !important;
+    color:lightcoral; !important;
+}
+
+#font
+{
+    background-image:url("../img/showcase.jpg");
+    /*width: 100vw;*/
+    height: 100vh;
+    margin:0;
+    padding-top:4.5rem;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh ;
+    background-position: center;
+}
+
+
+#text h1 , .down h1 {
+    margin:auto;
+    padding-bottom: 1.2rem;
+    padding-top:3.5rem;
+    color: #ffffff;
+    font-size:4rem;
+    text-align:center;
+}
+
+/*.parts{*/
+/*    !*height: 50vh;*!*/
+/*!*    width:45% !important;*!*/
+/*!*}*!*/
+.parts{
+    height: 100%;
+}
+#part2 p{
+    text-align:center;
+    padding:0;
+    margin:0;
+    padding:0.7rem 1.875rem;
+    color:whitesmoke;
+    font-size:0.7rem;
+}
+/*#part2{*/
+/*    padding-top:6.25rem;*/
+/*}*/
+/*#part2 a{*/
+/*    display:block;*/
+/*    margin: 20px auto;*/
+/*    border: 0;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#part1{*/
+/*    min-height:100%;*/
+/*    background-image: url("../img/hotel.jpg");*/
+/*    float:left;*/
+/*    width:50%;*/
+/*}*/
+
+
+#part2{
+    display: inline-block;
+    float:right;
+    /*width:50vw !important; !*WAAAAAARNIIIING*!*/
+    min-height:100%;
+    width:50%;
+    text-align:center;
+    padding-top:4.375rem;
+    background-color: #333333;
+    color:white;
+    font-weight: bold;
+}
+#part2 h1{
+    font-size:2.5em;
+    margin-top: 0.46rem;
+}
+/*#part2 a  , */#text a {
+        display:inline;
+        background-color:#5b5349 ;
+        border-radius:10px;
+        padding:10px;
+}
+#part2 a:hover{
+}
+
+#text p {
+    color:white;
+    text-align:center;
+    font-size:1.2em;
+    font-weight: bold;
+}
+#text a {
+    text-align:center;
+    display:inline-block;
+    text-align: center;
+    margin: 1.25rem auto;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*verified*/
+#part2 a , #text a , #submit{
+    background-color:#333333;
+    height:45px;
+    margin:30px;
+    padding:10px 25px;
+    display:inline-block;
+    /*font-family:Verdana;*/
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    /*font-size:0.8em;*/
+    /*display:inline-block;*/
+    /*font-family:Verdana;*/
+    /*text-decoration: none;*/
+    /*color : white;*/
+    /*font-weight: bold;*/
+    /*padding:7px 20px 7px 20px;*/
+    /*padding-top:7px;*/
+    /*font-size:1.7em;*/
+    /*margin:0;*/
+    /*display:block;*/
+    /*margin: 20px auto;*/
+    /*border: 0;*/
+    border-radius: 5px;
+    cursor: pointer;
+    /*display:inline;*/
+    /*background-color:#5b5349 ;*/
+    /*border-radius:10px;*/
+    /*padding:10px;*/
+}
+
+#part2 a , #submit{
+    background-color: #5b5349; !important;
+}
+
+a:active , #submit:active {
+    font-size: 0.9em;
+}
+#part1{
+    display: inline-block;
+    padding: 0;
+    width:50%;
+    float:left;
+    background-image:url("../img/photo-1.jpg");
+    background-size: contain;
+    /*height: 50vh;*/
+    height:366px;
+    /*overflow: hidden;*/
+}
+/*verified*/
+.options{
+    display:inline-block;
+    width:32%;
+    background-color:antiquewhite;
+    margin:0;
+}
+.options i {
+    display:block;
+    padding: 15px 1em;
+    font-size:2.5em;
+    text-align : center ;
+    color:#333333;
+}
+.options h1 {
+    height:100%;
+    text-align:center;
+    font-size:1em;
+    color:#333333;
+}
+ .options p {
+     text-align:center;
+     color:#333333;
+     padding:15px;
+ }
+ #food{
+      background-color: lightcoral;
+ }
+ footer {
+     background-color: #333333;
+     height:2.5rem;
+}
+ footer p {
+     color:white;
+     text-align: center;
+     font-size: 0.9em;
+     font-weight: bold;
+     margin:0;
+     padding:10px;
+ }
+ .about-hotel{
+
+ }
+body {
+    background-color:#F7D8CB;
+}
+.about-hotel h1 {
+    margin-top:0;
+}
+ /*#right {*/
+ /*    background-color:floralwhite;*/
+ /*    float: right;*/
+ /*    width:50%;*/
+ /*    min-height: 100% ;*/
+ /*}*/
+/*verified*/
+ #left p {
+     margin:0;
+     float:left;
+     padding:  1.5rem 1.87rem !important;
+     padding-left: 4.37rem !important;
+     font-style: italic;
+     font-size:1rem;
+     color:#333333;
+     display:inline;
+     width:60%;
+ }
+ #left h1 , #contact h1{
+     display:inline;
+     padding:0.62rem 3.125rem;
+     text-align: center;
+     margin:0.31rem;
+     font-size:3rem;
+
+ }
+ #left img{
+     display: inline-block;
+     float:right;
+     width:30%;
+     height:80%;
+     border-radius: 50%;
+     margin: 3rem 1em;
+     margin-right:2.5rem;
+ }
+ #left {
+     height: 390px;
+ }
+/*#right img {*/
+ /*       display: block;*/
+ /*       width:70%;*/
+ /*       min-height:100% !important;*/
+ /*       margin: auto;*/
+ /*       padding:30px;*/
+ /*       !*border-radius:100px;*!*/
+ /*}*/
+
+.down{
+    background-image: url("../img/test-bg.jpg");
+    padding-bottom:3.125rem;
+}
+.down h1 {
+    font-size:3.5rem;
+    padding-bottom: 0;
+}
+#downs{
+    height:100%;
+    width:70%;
+    margin: 4.375rem auto;
+    background-color:#EC9F7E;
+    border-radius:1.25rem;
+    opacity:0.9;
+}
+#downs img{
+    margin:0.93rem 1.87rem;
+    float: left;
+    max-width:140px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+}
+#downs p{
+    color:#333333;
+    font-family: 'Tangerine', cursive;
+    padding:1.25rem;
+    padding-left:6.25rem;
+    margin:auto;
+    /*display:inline;*/
+    width:83%;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/*verified*/
+/*#contact {*/
+/*    height: 38.12rem;*/
+/*}*/
+
+
+#contact input {
+    border : none;
+    border-radius: 10px;
+    width: 10.56rem;
+    height:2.66rem;
+}
+#contact p , #contact input , #contact textarea{
+    margin: 1.3rem 1.87rem;
+}
+#message , textarea {
+    display: inline-block;
+}
+textarea{
+    border : none;
+    border-radius: 10px;
+    width:40%;
+    margin: 1rem 0 !important;
+    margin-left: 0 !important;
+
+}
+#message{
+    margin:0;
+    height:6.25rem;
+    width:30%;
+    float: right;
+
+}
+
+
+#message-left p {
+    float:left;
+    margin-left: 1.87rem;
+    display:block;
+    padding-bottom: 2rem;
+}
+#message-right{
+    width:40%;
+    margin-left: 140px;
+}
+#contact p{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5em;
+    color:#333333;
+
+}
+#submit{
+    display:block !important;
+    margin:2rem auto !important;
+    border-radius: 20px;
+    font-size:1.5em;
+    padding:0.625rem !important;
+    height:4.06rem !important;
+}
+
+#email i , #phone i , #hotel2 i {
+    color:whitesmoke !important;
+}
+#hotel2 , #phone {
+
+    border: none ;
+}
+
