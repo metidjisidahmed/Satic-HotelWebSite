@@ -1,5 +1,5 @@
 # Satic-WebSite-1
-  Hotel Website created using  Html/CSS ( the design of the website is inspired from Brad Traversey and its Udemy Course )
+  Hotel Website created using  Html/CSS ( the design of the webiste is inspired from Brad Traversey and its Udemy Course )
   
   Descriptions :
   
